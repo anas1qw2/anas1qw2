@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #34495e;
+    background-color: #ecf0f1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #f39c12;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #1abc9c;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1504718599043-3c275b1b2865?crop=entropy&cs=tinysrgb&w=1920&h=500&fit=crop') no-repeat center center/cover;
+    color: #ecf0f1;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.hero-content .btn {
+    background-color: #1abc9c;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #16a085;
+}
+
+.recipes {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.recipes h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.recipe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recipe {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #ecf0f1;
+    transition: transform 0.3s;
+}
+
+.recipe img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.recipe-info h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.recipe-info p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.recipe:hover {
+    transform: translateY(-5px);
+}
+
+.about {
+    background: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 40px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.contact h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.contact .btn {
+    background-color: #1abc9c;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact .btn:hover {
+    background-color: #16a085;
+}
+
+footer {
+    background-color: #f4f4f4; /* Light Off-White background */
+    padding: 40px 0;
+    color: #34495e; /* Soft Dark Gray text color */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    color: #1abc9c; /* Teal color for headings */
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 0.9rem;
+    color: #7f8c8d; /* Soft Gray text */
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #34495e; /* Dark Gray for links */
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #1abc9c; /* Change link color on hover */
+}
+
+.social-links {
+    list-style: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #34495e;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: #f39c12; /* Warm Orange on hover */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light Gray background for footer bottom */
+    color: #34495e;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+  }
